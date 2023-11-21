@@ -1,2 +1,44 @@
-This is how you performe tissue segmentation with the models in Bell & Brendel et al 
+Read Me File for Bell and Brendel et al. Knee Tissue Segmentation Package
+
+Set Up:
+Install QuPath >0.3.0, https://qupath.github.io/
+Install Anaconda; https://docs.anaconda.com/ 
+Install python >3.9 and package dependencies detailed in spec_file.txt
+
+Use:
+1)	Create a QuPath Project Folder
+2)	In QuPath, draw and ROI Annotation around the region to analyze for each slide
+3)	Export the tiles with the QuPath script “Create_Tiles.groovy”
+  a.	Open script in script editor
+  b.	Decide what downsample rate (line 11), tile size (line 19) and overlap (line 20) to use
+    i.	Package is optimized for 512px by 512px images that are overlapped by 340px (66%) with a final pixel resolution of 0.692-1.02 µm per pixel. This dictates a downsample rate of 4 with most slide scanner (Zeiss, Olympus, Leica/Aperio) with a 40x  objective
+    ii.	Note: Change the downsample to make the final pixel resolution apropriote
+  c.	 In the Run menu select “Run For Project”
+  d.	Select slides to process
+  e.	Click OK
+  f.	Wait to finish – May take some time
+4)	 Open Anaconda and select/activate appropriate environment
+5)	Open a Command Prompt or IDE
+6)	cd to the python scripts folder
+7)	Run “Run_Knee_Infer.py” with arguments
+  a.	python Run_Knee_Infer.py [QuPath_Folder_Path] [Model_Path] [Delete_Temp_Files] [Infer_Batch_Size] [Tile_Size] [Downsample]
+  b.	positional arguments:
+    i.	QuPath_Folder_Path  Please set the path (String) to the QuPath Project Folder
+    ii.	Model_Path          Please set the path (String) to the Models
+    iii.	Delete_Temp_Files   Indicate (True or False) if you want to delete the Temp Files Created (Default = True) which include the folders : tiles, Results_Temp, Results_from_Inference, Org_for_Inference
+    iv.	Infer_Batch_Size    Indicate How Many (Integer) Images to Process at a Time - Dependent on GPU VRAM - Default = 10
+    v.	Tile_Size           Indicate the tile size (Integer) exported by QuPath - Default = 512
+    vi.	Downsample          Indicate the Downsample rate (Integer) used in the export by QuPath - Default = 4
+
+  c.	Example Run command
+      Python Run_Knee_Infer.py C:\\Users\\Richard\\MyQuPathProjectFolder C:\\Users\\Richard\\Infer_Knee_Segmentation_Package\\Models True 10 512 4
+
+8)	Wait for 4 scripts to stop running (potentially hours-days)
+9)	This will create a folder of majority voted masks of the tissues
+10)	In QuPath, open the script ‘Import_Masks_as_Annotations_QuPath_from_inference_Batch.groovy’
+  a.	Change the path on line 20 to the correct Majority_Vote folder
+  b.	Check the downsample rate on line 43 and the name parsing on line 82
+  c.	In the Run menu select “Run For Project”
+  d.	Select slides to process
+
 
