@@ -1,5 +1,5 @@
 1) Create superpixels with "Tiles Pipeline-SLIC20 - All H1 - Sm40_80.groovy"
 2) In QuPath, build model with "Train object classifier" GUI
-    a) NOTE: In paper, since we had so much training data (> 2 million superpixels in 64 WSIs), we had to limit the tree depth to 20 in order to not exceed an a character 
+    a) NOTE: In paper, since we had so much training data (> 2 million superpixels in 64 WSIs), we had to limit the tree depth to 20 in order to not exceed a character 
           limit imposed by OpenCV/QuPath when writing the model to disk, see discussion of issue at https://forum.image.sc/t/combining-classifiers-with-the-composite-tool/61651 
 3) Infer classifier with either "Load Object Clasifier" GUI or "Infer_Object_Classifier.groovy" script (model has to located in the "classifiers/object_classifiers" folder)
