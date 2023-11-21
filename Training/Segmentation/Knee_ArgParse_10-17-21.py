@@ -33,18 +33,15 @@ import csv
 
 #%% Set Hyperparamerters and Paths
 
-#os.chdir('C://Users/Richard Bell/Documents/HSS/ML Histomorphometry/Scripts/Matt/Knee')
 
-root = 'R:\\Machine_Learning\\Inflammatory Arthritis Knee Segmentation\\Copy_Tiles_for_Manuscript_Semi-Random\\'
 
-#root = '//athena//oterolab//scratch//rib4002//Mouse_Knee//'
+root = '\\Path\\To\\Tiles\\'
+
 root_path = root #+ 'Data//'
 results_path = root + 'Results'
 
-
 now = datetime.now()
 now = now.strftime('%F-%H-%M-%S')
-
 
 import argparse
 
@@ -95,7 +92,7 @@ if weighted_loss_switch == True:
 else:    
     loss_used = "dice" 
 
-# 1 = unet, 2 = unet++, 3 = PSPnet, 4 = deeplavV3
+# 1 = unet, 2 = unet++, 3 = PSPnet, 4 = deeplabV3
 model_id =  args.Model_ID
 
 # Learning Parameters
@@ -158,8 +155,6 @@ with open(f'{results_path}//{folder_name}//{folder_name}_Meta_Data.csv', 'w', ne
 
 log_file = []
 log_file.append(['Epoch', 'Phase', 'Metric', 'Data']) 
-
-
 
 
 #%%
