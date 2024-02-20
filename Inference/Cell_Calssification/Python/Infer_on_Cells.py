@@ -88,14 +88,15 @@ for xl in tqdm(xls):
     one_hot = np.argmax(y_pred_probs, axis = 1)
     
     predicted_cell_label = []
-    
+    #Mouse
     Cell_Labels_Dictionary = ['Synovial_Fibroblasts', 'Synovial_Lining_Cells','Synovial_Vessel_Cells',
                               'Lymphocytes',  'Synovial_Fat_Cells', 'Growth_Plate_Chondrocytes', 'Bone_Cell']
+    #Huamn
+        Cell_Labels_Dictionary = ['Stromal-Connective', 'Fibroblasts', 'Macrophages-Histocytes',
+                          'Synovial Lining Cell', 'Vascular Endothelial Cell',
+                           'Plasma Cell', 'Lymphocytes']
     
-    
-    # Cell_Labels_Dictionary_2 = ['Bone_Cell', 'Growth_Plate_Chondrocytes', 'Lymphocytes', 
-    #                             'Synovial_Fat_Cells','Synovial_Fibroblasts',
-    #                              'Synovial_Lining_Cells','Synovial_Vessel_Cells']
+
     
     for idx, label in enumerate(one_hot):
         #if 0.85 > max_prob[idx] >= 0.6 :
