@@ -1,0 +1,6 @@
+,objective,colsample_bytree,device,enable_categorical,eval_metric,gamma,learning_rate,max_depth,min_child_weight,missing,n_estimators,subsample,tree_method,num_class
+0,multi:softmax,0.8,cuda,False,merror,0,0.1,6,1,,400,0.5,hist,7
+0,multi:softmax,0.6,cuda,False,merror,0,0.2,6,1,,400,0.5,hist,7
+0,multi:softmax,0.6,cuda,False,merror,0,0.05,6,1,,400,0.5,hist,7
+0,multi:softmax,0.6,cuda,False,merror,0,0.1,6,1,,400,0.5,hist,7
+0,multi:softmax,0.8,cuda,False,merror,0,0.05,6,1,,400,0.5,hist,7
