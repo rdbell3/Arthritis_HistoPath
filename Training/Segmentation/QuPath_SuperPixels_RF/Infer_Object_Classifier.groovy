@@ -1,1 +1,0 @@
-runObjectClassifier("SLIC_RF_9class");
