@@ -1,4 +1,4 @@
-,Model_Number,Cell Labels_Names,Precision,Recall,F1,Support,,
+,Model_Number,Cell Labels_Names,Precision,Recall,F1,Support,Weight_Sum_F1,
 0,Model_1,Bone_Cell,0.843283582,0.8828125,0.86259542,128,,0.897617153
 1,Model_1,Growth_Plate_Chondrocytes,0.923295455,0.947521866,0.935251799,343,,
 2,Model_1,Lymphocytes,0.814814815,0.835443038,0.825,79,,
