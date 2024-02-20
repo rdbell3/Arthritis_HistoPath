@@ -59,23 +59,19 @@ warnings.filterwarnings('ignore')
 
 #%% Paths
 
-root_path = 'D:\\Bell, Brendal et al\\Single_Cell\\MvF_Slides_For_SingleCell\\'
+root_path = 'Path\to\Output\Folder\'
 
-results_root = root_path + '\\Output_2\\results_excels'
-images_path = root_path + '\\Images_2-1\\85-L1\\'
-save_path = root_path + '\\Output_2\\Cluster_Labels'
-plots_save_path = root_path + '\\Output_2\\Plots'
-data_save_path = root_path + '\\Output_2\\Data'
+results_root = root_path + '\\Output\\results_excels'
+images_path = root_path + '\\Images\\'
+save_path = root_path + '\\Output\\Cluster_Labels'
+plots_save_path = root_path + '\\Output\\Plots'
+data_save_path = root_path + '\\Output\\Data'
 
 
 tissue_mask_path = root_path + '\\Tissue_Masks'
 cell_mask_path = root_path + '\\Cell_Masks'
 
-
-tissue_mask_path = 'F:\\ML Histomorphometry\\Work Towards Manuscript_10-17-21\\MvF_Slides_For_SingleCell\\tiles\\'
 mask_downsample = 1
-
-#cell_mask_path = 'F:\\ML Histomorphometry\\Work Towards Manuscript_10-17-21\\Single_Cell_Annotations' + '\\Cell_Masks'
 
 
 #%% Hyperparameters and Empty Lists
@@ -438,7 +434,7 @@ for num, unique_scan in enumerate(unique_scan_names):
     # t = KDTree(a, leafsize = 10)
     
     slide_date_no_loc = slide_data.drop(columns = ['hemo-nucleus_X', 'hemo-nucleus_Y', 'hemo-nucleus_XM',
-                                                    'hemo-nucleus_YM', 'hemo-nucleus_Name','Tissue_Label']) # 'Cell_Label']) #, ])
+                                                    'hemo-nucleus_YM', 'hemo-nucleus_Name','Tissue_Label', 'Cell_Label']) 
     col_names = slide_date_no_loc.columns
     
     tree = KDTree(nuc_loc)
@@ -643,14 +639,6 @@ for num, unique_scan in enumerate(unique_scan_names):
         else: 
             new_data_final = pd.concat([new_data_final, new_data], axis = 1)            
 
-## can probably 
-    #Calculate density degree with above function
-    # dist_matrix = sp.distance_matrix(close_cells_coords.values, close_cells_coords.values)
-
-    # nuc_loc_dist_degree = density_degree(dist_matrix)
-    # nuc_degree = pd.DataFrame(np.sum(nuc_loc_dist_degree, axis = 1), columns = ['Degree'])
-
-
 
     new_data_final.reset_index(drop=True, inplace=True)
     slide_data.reset_index(drop=True, inplace=True)
@@ -665,26 +653,5 @@ for num, unique_scan in enumerate(unique_scan_names):
     del(slide_data)
     
     
-    
-    
-    # if unique_scan == unique_scan_names[0]:
-    #     all_data = slide_data
-    #     del(slide_data)
-    # else:
-    #     all_data = pd.concat([all_data, slide_data], axis = 0)
-    #     del(slide_data)
-    
-    # # del(dist_matrix)
 
-    
-
-        
-    # #all_data['Cell_Label'].fillna('0',inplace=True)
-    # all_data['Tissue_Label'].fillna('0',inplace=True)
-    
-    # save_name = '_'.join(str(e) for e in nuclei_distance_measures)
-    
-    # all_data.to_csv(f'{data_save_path}//{now}_{save_name}_{unique_scan}_data.csv')
-    # del(all_data)
-    # #all_data.to_csv(f'{data_save_path}//{now}_{save_name}_ds{downsample}_all_data.csv')
 
