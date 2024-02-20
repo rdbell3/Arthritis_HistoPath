@@ -5,7 +5,7 @@ roiManager("reset");
 run("Close All");
 //setBatchMode(true)
 
-root_path = 'D:\\AMP\\All_40x_Not_Annotated\\Output_5\\'
+root_path = 'Path\To\OutputFolder\'
 
 
 
