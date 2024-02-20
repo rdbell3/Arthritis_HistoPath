@@ -40,5 +40,7 @@ Use:
   b.	Check the downsample rate on line 43 and the name parsing on line 82
   c.	In the Run menu select “Run For Project”
   d.	Select slides to process
-
+11) If needed use the Trim_annotations_with_ROI.groovy to generate a ROI relevant for biologic inference
+12) Save and export annotations with Save_Annoations_Spreadsheet.groovy
+13) organize qupath data with extract_qupathData.py for graphing or other uses
 
