@@ -34,7 +34,7 @@
 4,Model_5,Synovial_Fibroblasts,0.888,1,0.940677966,111,,
 5,Model_5,Synovial_Lining_Cells,0.969135802,0.907514451,0.937313433,173,,
 6,Model_5,Synovial_Vessel_Cells,0.924242424,0.871428571,0.897058824,70,,
-,,,Avg,SD,,,,
+,,,Avg_F1,SD_F1,,,,
 ,,Bone_Cell,0.824342785,0.049358431,,,,
 ,,Growth_Plate_Chondrocytes,0.897573315,0.028093878,,,,
 ,,Lymphocytes,0.655986733,0.12798501,,,,
