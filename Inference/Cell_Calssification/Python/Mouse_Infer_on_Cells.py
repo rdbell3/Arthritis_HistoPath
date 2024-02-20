@@ -22,7 +22,7 @@ import os
 #%% Paths
 
 
-root_path = 'D:\\Bell, Brendal et al\\Single_Cell\\'
+root_path = 'Path\\'
 
 data_path = f'{root_path}MvF_ScHisto_Data\\'
 
@@ -30,12 +30,12 @@ data_path = f'{root_path}MvF_ScHisto_Data\\'
 # images_path = root_path + '\\Images'
 
 
-save_infer_path = root_path + '\\MVF_scHisto_Inf_12-19-23\\Cell_Inference'
+save_infer_path = root_path + '\\Path\\Cell_Inference'
 #plots_save_path = root_path + '\\Plots'
 #data_save_path = root_path + '\\Data'
 
 
-model_location =  'D:\\Bell, Brendal et al\\Single_Cell\\Cells_For_ModelBuilding\\Output\\Models-Performance\\2023-12-15-16-39'
+model_location =  'path\to\Models'
 
 
 loaded_model = pickle.load(open(model_location + '\\model_1.sav', 'rb'))
