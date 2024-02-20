@@ -13,13 +13,13 @@ from tqdm import tqdm
 
 
 
-root_path = 'E:\\AMP\\All_40x_Cases_Not_Annotated\\'
+root_path = 'Path\\'
 
 image_path = root_path + '\\Images'
 
 output_path = root_path + 'Output'
 
-output_path_new = 'D:\\AMP\\All_40x_Not_Annotated\\' + 'Output'
+output_path_new = 'Path\\' + 'Output'
 
 file_names = os.listdir(image_path)
 json_names = os.listdir(output_path_new + '//json')
