@@ -24,7 +24,7 @@ import os
 
 root_path = 'Path\\'
 
-data_path = f'{root_path}MvF_ScHisto_Data\\'
+data_path = f'{root_path}xls'
 
 # results_root = root_path + '\\Output\\results_excels'
 # images_path = root_path + '\\Images'
