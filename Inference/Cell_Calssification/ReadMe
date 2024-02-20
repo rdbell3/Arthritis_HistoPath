@@ -1,1 +1,3 @@
 This is how you perfomrm Cell Classification with the modles in Bell and Bredel et al
+1) Perfrom Nuclie segmentation and feature exration as specified in the "Training" section
+2) use provided models to infer cell type class
