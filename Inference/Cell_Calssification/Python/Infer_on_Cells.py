@@ -91,8 +91,8 @@ for xl in tqdm(xls):
     #Mouse
     Cell_Labels_Dictionary = ['Synovial_Fibroblasts', 'Synovial_Lining_Cells','Synovial_Vessel_Cells',
                               'Lymphocytes',  'Synovial_Fat_Cells', 'Growth_Plate_Chondrocytes', 'Bone_Cell']
-    #Huamn
-        Cell_Labels_Dictionary = ['Stromal-Connective', 'Fibroblasts', 'Macrophages-Histocytes',
+    #Human
+    Cell_Labels_Dictionary = ['Stromal-Connective', 'Fibroblasts', 'Macrophages-Histocytes',
                           'Synovial Lining Cell', 'Vascular Endothelial Cell',
                            'Plasma Cell', 'Lymphocytes']
     
