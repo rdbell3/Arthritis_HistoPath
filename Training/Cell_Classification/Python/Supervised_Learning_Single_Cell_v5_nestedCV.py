@@ -21,7 +21,7 @@ from sklearn.impute import SimpleImputer
 
 #%% Paths
 
-root_path = 'D:\\Bell, Brendal et al\\Single_Cell\\Cells_For_ModelBuilding\\'
+root_path = 'Path\to\output\folder'
 
 results_root = root_path + '\\Output\\results_excels'
 images_path = root_path + '\\Images'
@@ -34,7 +34,7 @@ models_save_path = root_path + '\\Output\\Models-Performance'
 
 #%% Import Data
 
-all_data = pd.read_csv(f'{data_save_path}\\2022-01-22_150_300_dsnone_all_data_concat.csv')#, sep="\t", header = 0 , index_col = 0)
+all_data = pd.read_csv(f'{data_save_path}\\cell_by_feature_Martrix.csv')#, sep="\t", header = 0 , index_col = 0)
 
 all_data = all_data.drop(columns='Unnamed: 0')
 
@@ -195,19 +195,19 @@ for train_index, test_index in skf.split(X, stratifier):
    
     cv_inner = KFold(n_splits=5, shuffle=True, random_state=42)
     
-    
+    # need Cuda GPU set up
     clf = XGBClassifier( objective='multi:softmax', num_class = 7,
                         tree_method='hist', device = 'cuda',
                         eval_metric = 'merror') 
     
     space = {
         "learning_rate": [0.05, 0.1, 0.2],
-        "colsample_bytree": [0.6, 0.8],# 1.0],
+        "colsample_bytree": [0.6, 0.8, 1.0],
         "subsample": [0.25, 0.5],
         "max_depth": [6, 12],
-        "n_estimators": [400], #[10, 100, 200]
-        "gamma": [0],#, 0.1, 0.3],
-        "min_child_weight": [1]#, 5, 10]
+        "n_estimators": [10, 100, 200, 400]
+        "gamma": [0, 0.1, 0.3],
+        "min_child_weight": [1, 5, 10]
         }
 
     # define search
