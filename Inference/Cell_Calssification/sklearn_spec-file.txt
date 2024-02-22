@@ -259,4 +259,4 @@ dependencies:
     - seaborn==0.13.0
     - tqdm==4.66.1
     - xgboost==2.0.2
-prefix: C:\Users\richa\anaconda3\envs\sklearn_env
+
