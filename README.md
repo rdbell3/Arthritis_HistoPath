@@ -9,13 +9,13 @@ Richard D. Bell1,2,*,§, Matthew Brendel2, §, Maxwell Konnaris1, Justin Xiang3,
 §, † Authors contributed equally
 
 Affiliations:
- 1Arthritis and Tissue Degeneration Program, Hospital for Special Surgery, New York, NY
- 2Department of Population Health Sciences, Weill Cornell Medical College, New York, NY
- 3Horace Greely High School, Chappaqua, NY
-4 Rheumatology Research Group, Institute for Inflammation and Ageing, University of Birmingham, NIHR Birmingham Biomedical Research Center and Clinical Research Facility, University of Birmingham, Queen Elizabeth Hospital, Birmingham, UK
- 5Allergery, Immunology and Rheumatology Division, University of Rochester Medical Center, Rochester, NY
-6Center for Musculoskeletal Research, University of Rochester Medical Center, Rochester, NY
- 7The Rockefeller University, New York, NY
+ 1 Arthritis and Tissue Degeneration Program, Hospital for Special Surgery, New York, NY
+ 2 Department of Population Health Sciences, Weill Cornell Medical College, New York, NY
+ 3 Horace Greely High School, Chappaqua, NY
+ 4 Rheumatology Research Group, Institute for Inflammation and Ageing, University of Birmingham, NIHR Birmingham Biomedical Research Center and Clinical Research Facility, University of Birmingham, Queen Elizabeth Hospital, Birmingham, UK
+ 5 Allergery, Immunology and Rheumatology Division, University of Rochester Medical Center, Rochester, NY
+ 6 Center for Musculoskeletal Research, University of Rochester Medical Center, Rochester, NY
+ 7 The Rockefeller University, New York, NY
 
 
 Abstract:
