@@ -1,5 +1,5 @@
 1) Create tiles with the QuPath .groovy script
 
-2) Oranganize the tiles into a Train and Val folder (with the masks in the folder)
+2) Organize the tiles into a Train and Val folder (with the masks in the folder)
 
 3) Run the Knee_ArgParse_10-17-21.py script
