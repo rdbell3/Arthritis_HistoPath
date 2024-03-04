@@ -8,7 +8,8 @@ Authors:
 Richard D. Bell1,2,*,§, Matthew Brendel2, §, Maxwell Konnaris1, Justin Xiang3, Miguel Otero1,2, Mark A. Fontana1,2, Zilong Bai2, Accelerating Medicines Partnership Rheumatoid Arthritis and Systemic Lupus Erythematosus (AMP RA/SLE) Consortium, Daria Krenitsky5, Nida Meednu5, Javier Rangel-Moreno5, Dagmar Scheel-Toellner4, Hayley Carr4, Saba Nayar4, Jack McMurray4, Edward DiCarlo1, Jennifer Anolik5, Laura Donlin1, Dana Orange7, H. Mark Kenney6, Andrew Filer4†, Edward M. Schwarz6†, Lionel B Ivashkiv1,2†  and Fei Wang2†
 §, † Authors contributed equally
 
-Affiliations:
+Affiliations:![300-0143_Diffuse_5x_Overlay](https://github.com/rdbell3/Arthritis_HistoPath/assets/46380784/e18bbfdf-c745-469e-bba2-f7d2fd5d5f44)
+
  1 Arthritis and Tissue Degeneration Program, Hospital for Special Surgery, New York, NY
  2 Department of Population Health Sciences, Weill Cornell Medical College, New York, NY
  3 Horace Greely High School, Chappaqua, NY
