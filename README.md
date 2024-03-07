@@ -11,10 +11,10 @@ Our ten tissue segmentation model was trained and validated on both helathy and 
 
 Our human synovial cell classification model was trained on 2,639 pathologist annotated cells group into 7 cell types and achieved an F1 score of 0.85 ± 0.01. Lymphocytes and plasma cells were some of these best performing classificationas and were validated with immunohistochemistry.
 
-In this repository there are methods and script for how we trained our models and how to use our models for inference.
+In this repository there are methods and scripts for how we trained our models and how to use our models for inference.
 
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 Title:
