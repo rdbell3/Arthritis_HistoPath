@@ -21,6 +21,7 @@ Automated multi-scale computational pathotyping (AMSCP) of inflamed synovial tis
 
 Authors:
 Richard D. Bell §, Matthew Brendel §, Maxwell Konnaris, Justin Xiang, Miguel Otero, Mark A. Fontana, Zilong Bai, Accelerating Medicines Partnership Rheumatoid Arthritis and Systemic Lupus Erythematosus (AMP RA/SLE) Consortium, Daria Krenitsky, Nida Meednu, Javier Rangel-Moreno, Dagmar Scheel-Toellner, Hayley Carr, Saba Nayar, Jack McMurray, Edward DiCarlo, Jennifer Anolik, Laura Donlin, Dana Orange, H. Mark Kenney, Andrew Filer†, Edward M. Schwarz†, Lionel B Ivashkiv† and Fei Wang†
+
 §, † Authors contributed equally
 
 
