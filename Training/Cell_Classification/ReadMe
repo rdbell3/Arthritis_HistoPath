@@ -1,4 +1,4 @@
-1) Creat Tiles, we prefer at 1024 px by 1024 px with 64 px overlap (Qupath/create_tiles.groovy)
+1) Create Tiles, we prefer at 1024 px by 1024 px with 64 px overlap (Qupath/create_tiles.groovy)
 2) Run HoverNet to obtain .json files
 3) Run j2m to create ImageJ readable ROIs
 4) Run Fiji-ImageJ/cell-extraction_v7.ijm to create patch level .xls files with basic features
