@@ -21,18 +21,8 @@ Title:
 Automated multi-scale computational pathotyping (AMSCP) of inflamed synovial tissue
 
 Authors:
-Richard D. Bell1,2,*,§, Matthew Brendel2, §, Maxwell Konnaris1, Justin Xiang3, Miguel Otero1,2, Mark A. Fontana1,2, Zilong Bai2, Accelerating Medicines Partnership Rheumatoid Arthritis and Systemic Lupus Erythematosus (AMP RA/SLE) Consortium, Daria Krenitsky5, Nida Meednu5, Javier Rangel-Moreno5, Dagmar Scheel-Toellner4, Hayley Carr4, Saba Nayar4, Jack McMurray4, Edward DiCarlo1, Jennifer Anolik5, Laura Donlin1, Dana Orange7, H. Mark Kenney6, Andrew Filer4†, Edward M. Schwarz6†, Lionel B Ivashkiv1,2†  and Fei Wang2†
+Richard D. Bell §, Matthew Brendel §, Maxwell Konnaris, Justin Xiang, Miguel Otero, Mark A. Fontana, Zilong Bai, Accelerating Medicines Partnership Rheumatoid Arthritis and Systemic Lupus Erythematosus (AMP RA/SLE) Consortium, Daria Krenitsky, Nida Meednu, Javier Rangel-Moreno, Dagmar Scheel-Toellner, Hayley Carr, Saba Nayar, Jack McMurray, Edward DiCarlo, Jennifer Anolik, Laura Donlin, Dana Orange, H. Mark Kenney, Andrew Filer†, Edward M. Schwarz†, Lionel B Ivashkiv† and Fei Wang†
 §, † Authors contributed equally
-
-Affiliations:
-
- 1 Arthritis and Tissue Degeneration Program, Hospital for Special Surgery, New York, NY
- 2 Department of Population Health Sciences, Weill Cornell Medical College, New York, NY
- 3 Horace Greely High School, Chappaqua, NY
- 4 Rheumatology Research Group, Institute for Inflammation and Ageing, University of Birmingham, NIHR Birmingham Biomedical Research Center and Clinical Research Facility, University of Birmingham, Queen Elizabeth Hospital, Birmingham, UK
- 5 Allergery, Immunology and Rheumatology Division, University of Rochester Medical Center, Rochester, NY
- 6 Center for Musculoskeletal Research, University of Rochester Medical Center, Rochester, NY
- 7 The Rockefeller University, New York, NY
 
 
 Abstract:
