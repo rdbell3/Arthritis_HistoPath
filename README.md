@@ -5,7 +5,7 @@ In our paper, Automated multi-scale computational pathotyping (AMSCP) of inflame
 
 ![Segmentation_Example](https://github.com/rdbell3/Arthritis_HistoPath/assets/46380784/9dca2722-3fab-438d-a409-ade34bd38902)
 
-Our ten tissue mouse segmentation model was trained and validated on both helathy and diseased inflammatory arthritis H&E sections (n=264). Within the training set we had two different models of inflammatory arthritis, the TNF transgenic mouse and the Zymosan induce arthritis model that were procces and stained at different times (Batch A vs Batch B). This diverse training set allowed for improved performance and we achieved a frequency weighted mean intersection over union of 0.94 ± 0.01.
+Our ten tissue mouse segmentation model was trained and validated on both healthy and diseased inflammatory arthritis H&E sections (n=264). Within the training set we had two different models of inflammatory arthritis, the TNF transgenic mouse and the Zymosan induce arthritis model that were procces and stained at different times (Batch A vs Batch B). This diverse training set allowed for improved performance and we achieved a frequency weighted mean intersection over union of 0.94 ± 0.01.
 
 ![Cell Classification Example](https://github.com/rdbell3/Arthritis_HistoPath/assets/46380784/71e7ce55-1420-4700-9a7c-457f7d25eca5)
 
