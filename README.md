@@ -1,6 +1,22 @@
 # Arthritis_HistoPath
 This is a repository of the training and inference scripts used in Bell and Brendal et al, AMSCP of Inflammatory Arthritis 
 
+In our paper, Automated multi-scale computational pathotyping (AMSCP) of inflamed synovial tissue, we train, validate and deploy in real world settinges both a tissue segmentation model and cell classification model in the context of mouse and human synovial inflammatory arthritis.  
+
+![Segmentation_Example](https://github.com/rdbell3/Arthritis_HistoPath/assets/46380784/9dca2722-3fab-438d-a409-ade34bd38902)
+
+Our ten tissue segmentation model was trained and validated on both helathy and diseased murine inflammatory arthritis H&E sections (n=264). Within the training set we had two different models of inflammatory arthritis, the TNF transgenic mouse and the Zymosan induce arthritis model that were procces and stained at different times (Batch A vs Batch B). This diverse training set allowed for improved performance and we achieved a frequency weighted mean intersection over union of 0.94 ± 0.01.
+
+![Cell Classification Example](https://github.com/rdbell3/Arthritis_HistoPath/assets/46380784/71e7ce55-1420-4700-9a7c-457f7d25eca5)
+
+Our human synovial cell classification model was trained on 2,639 pathologist annotated cells group into 7 cell types and achieved an F1 score of 0.85 ± 0.01. Lymphocytes and plasma cells were some of these best performing classificationas and were validated with immunohistochemistry.
+
+In this repository there are methods and script for how we trained our models and how to use our models for inference.
+
+
+
+
+
 Title:
 Automated multi-scale computational pathotyping (AMSCP) of inflamed synovial tissue
 
