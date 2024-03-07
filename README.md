@@ -14,7 +14,7 @@ Our human synovial cell classification model was trained on 2,639 pathologist an
 In this repository there are methods and script for how we trained our models and how to use our models for inference.
 
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 Title:
@@ -38,9 +38,6 @@ Affiliations:
 Abstract:
 Rheumatoid arthritis (RA) is a complex immune-mediated inflammatory disorder in which patients suffer from inflammatory-erosive arthritis.  Recent advances on histopathology heterogeneity of RA pannus tissue revealed three distinct phenotypes based on cellular composition (pauci-immune, diffuse and lymphoid), suggesting distinct etiologies that warrant specific targeted therapy.  Thus, cost-effective alternatives to clinical pathology phenotyping are needed for research and disparate healthcare.  To this end, we developed an automated multi-scale computational pathotyping (AMSCP) pipeline with two distinct components that can be leveraged together or independently: 1) segmentation of different tissue types to characterize tissue-level changes, and 2) cell type classification within each tissue compartment that assesses change across disease states. Initial training and validation were completed on 264 knee histology sections from mice with TNF-transgenic (n=233) and injected zymosan induced (n=32) inflammatory arthritis.  Peak tissue segmentation performance with a frequency weighted mean intersection over union was 0.94 ± 0.01 and peak cell classification F1 was 0.88 ± 0.03. We then leveraged these models and adapted them to analyze RA pannus tissue clinically phenotyped as pauci-immune (n=5), diffuse (n=28) and lymphoid (n=27), achieving peak cell classification performance with F1 score of 0.85 ± 0.01.  Regression analysis demonstrated a highly significant correlation between AMSCP of lymphocyte percent vs average Krenn Inflammation Score (rho = 0.88; p<0.0001), plasma cell counts vs immunofluorescent CD138+ cell counts (rho = 0.86; p<0.002), and lymphocyte counts vs immunofluorescent CD3+/CD20+ cell counts (rho = 0.97; p<0.0001). Importantly, we can distinguish a lymphoid case from a diffuse case with a simple threshold of 0.82% of plasma cells, demonstrating the phenotyping potential of our automated approach vs. a clinical pathologist with a ROC-AUC of 0.82 ± 0.06. Taken together, we find AMSCP to be a valuable cost-effective method for research.  Follow-up studies to assess its clinical utility are warranted.
 
-Repository Notes:
-
-This repositry is organized into training and inference sections, with both tissue segmention and cell classification sections within them. In the training tissue segmentation section, these are QuPATh .groovy scripts describing how to create the SLIC superpixels and the extracted feauters used in the manuscript
 
 
 
