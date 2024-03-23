@@ -16,12 +16,21 @@ In this repository there are methods and scripts for how we trained our models a
 
 - Inference
     - Cell Classification
-         - Human
-         - Mouse
+         - Human Models
+         - Mouse Models
+         - Python Scripts
+         - QuPath Scripts
     - Tissue Segmentation
+        - Models
+        - Scripts (Python & QuPath)
 - Training
     - Cell Classification
+        - Fiji-ImageJ Feature Extraction
+        - Python Scripts
+        - QuPath Scripts
     - Tissue Segmentation
+        - Python Scripts
+        - QuPath Scripts
 
 ## Title:
 Automated multi-scale computational pathotyping (AMSCP) of inflamed synovial tissue
