@@ -15,9 +15,9 @@ In this repository there are methods and scripts for how we trained our models a
 ### Directory
 
 -Inference
-  -Cell Classification
-    -Human
-    -Mouse
+    -Cell Classification
+         -Human
+         -Mouse
   -Tissue Segmentation
 -Training
   -Cell Classification
