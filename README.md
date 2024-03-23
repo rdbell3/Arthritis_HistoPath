@@ -14,10 +14,10 @@ Our human synovial cell classification model was trained on 2,639 pathologist an
 In this repository there are methods and scripts for how we trained our models and how to use our models for inference.
 ### Directory
 
--Inference
-    -Cell Classification
-         -Human
-         -Mouse
+- Inference
+    - Cell Classification
+         - Human
+         - Mouse
   -Tissue Segmentation
 -Training
   -Cell Classification
