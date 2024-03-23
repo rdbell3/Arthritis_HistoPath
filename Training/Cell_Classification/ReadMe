@@ -2,5 +2,5 @@
 2) Run HoverNet to obtain .json files
 3) Run j2m to create ImageJ readable ROIs
 4) Run Fiji-ImageJ/cell-extraction_v7.ijm to create patch level .xls files with basic features
-5) Run Python/Cell_Feature)Extraction_v7.py to create slide level .xls with additional neighborhood features 
+5) Run Python/Cell_Feature_Extraction_v7.py to create slide level .xls with additional neighborhood features 
 6) Run Python/Supervised_Learning_Single_Cell_v5_nestedCV.py to build some models with XGBoost
