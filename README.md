@@ -18,10 +18,10 @@ In this repository there are methods and scripts for how we trained our models a
     - Cell Classification
          - Human
          - Mouse
-  -Tissue Segmentation
--Training
-  -Cell Classification
-  -Tissue Segmentation
+    - Tissue Segmentation
+- Training
+    - Cell Classification
+    - Tissue Segmentation
 
 ## Title:
 Automated multi-scale computational pathotyping (AMSCP) of inflamed synovial tissue
