@@ -5,6 +5,9 @@ Install QuPath >0.3.0, https://qupath.github.io/
 Install Anaconda; https://docs.anaconda.com/ 
 Install python >3.9 and package dependencies detailed in spec_file.txt
 
+Example WSI https://drive.google.com/drive/folders/1SmqPoypGWpaR_UdRO2F8Edr3wFKwZkax?usp=drive_link
+
+
 Use:
 1)	Create a QuPath Project Folder
 2)	In QuPath, draw and ROI Annotation around the region to analyze for each slide
