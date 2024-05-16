@@ -64,14 +64,14 @@ if __name__ == "__main__":
     instances = args.Instances
     
     print('Running 1/4: Move Files For Inference')
-    #move_files_for_inference(path)
+    move_files_for_inference(path)
     print('')
     print('Running 2/4: Inference')
-    #infer_knee(path, infer_batch_size, model_path)
+    infer_knee(path, infer_batch_size, model_path)
     print('')
     
     print('Running 3/4: Organize for Majority Vote')
-    #organize_for_majority_vote(path)
+    organize_for_majority_vote(path)
     
     
     folders = os.listdir(f'{path}\\Results_Temp\\OG')
@@ -84,14 +84,14 @@ if __name__ == "__main__":
 
     
     
-    # if delete_temp_files == True:
+    if delete_temp_files == True:
         
-    #     import shutil
+         import shutil
         
-    #     shutil.rmtree(path + 'tiles')
-    #     shutil.rmtree(path + 'Results_Temp')
-    #     shutil.rmtree(path + 'Results_from_Inference')
-    #     shutil.rmtree(path + 'Org_for_Inference')
+         shutil.rmtree(path + 'tiles')
+         shutil.rmtree(path + 'Results_Temp')
+         shutil.rmtree(path + 'Results_from_Inference')
+         shutil.rmtree(path + 'Org_for_Inference')
     
 
 
